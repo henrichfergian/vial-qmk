@@ -68,10 +68,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #undef DEBOUNCE
 #define DEBOUNCE 1
 
-// #define OLED_TIMEOUT 0
-// #define CUSTOM_OLED_TIMEOUT 10000
+#define OLED_TIMEOUT 0
+#define CUSTOM_OLED_TIMEOUT 10000
 #define OLED_UPDATE_INTERVAL 1
-// #define OLED_I2C_TIMEOUT 1
+#define OLED_I2C_TIMEOUT 1
 
 /* End RP2040 Specific configuration*/
 
